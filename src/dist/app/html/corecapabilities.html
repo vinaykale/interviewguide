@@ -1,0 +1,8 @@
+<div class="container">
+<ng2-smart-table  [settings]="settings"  
+                  [source]="corecapabilities"  
+                 (editConfirm)="onSaveConfirm($event)"
+                 (userRowSelect)="onRowSelect($event)">
+</ng2-smart-table>
+</div>
+<capabilities [corecapablityid]="id" [corecapablityname]="corecapability_name"></capabilities>

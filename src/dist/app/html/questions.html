@@ -1,0 +1,17 @@
+<div class="container">
+    <h3>Select Capability</h3>
+    <ng2-dropdown [dynamicUpdate]="false" (onItemClicked)="OnCapbilitySelected($event)">
+        <ng2-dropdown-button [showCaret]="true">
+            Capabilities
+        </ng2-dropdown-button>
+        <ng2-dropdown-menu>
+            <ng2-menu-item *ngFor="let capability of capabilities" [value]="capability.id">
+                {{ capability.title }}
+            </ng2-menu-item>
+        </ng2-dropdown-menu>
+    </ng2-dropdown>
+    <br/>
+    <h4>{{title}}</h4>
+    <ng2-smart-table [settings]="settings" [source]="questions" (editConfirm)="onSaveConfirm($event)">
+    </ng2-smart-table>
+</div>

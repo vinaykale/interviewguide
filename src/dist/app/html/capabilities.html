@@ -1,0 +1,15 @@
+<modal #modal>
+    <modal-header [show-close]="true">
+        <h4 class="modal-title">{{corecapablityname}} - Capabilities</h4>
+    </modal-header>
+    <modal-body>
+        <ng2-smart-table  [settings]="settings"  
+                  [source]="capabilities"  
+                 (editConfirm)="onSaveConfirm($event)">
+        </ng2-smart-table>
+    </modal-body>
+    <modal-footer>
+        <button type="button" class="btn btn-default" data-dismiss="modal" (click)="modal.dismiss()">Cancel</button>
+        <button type="button" class="btn btn-primary" (click)="modal.close()">Ok</button>
+    </modal-footer>
+</modal>
