@@ -1,0 +1,59 @@
+     .divLoginBox {
+            margin: auto;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 450px;
+            background-color: white;
+        }
+        
+        .custom-icon {
+            /*background: #666;*/
+            /*background: rgba(0, 0, 0, 0.4);*/
+            border-radius: 100%;
+            border: 6px solid #fff;
+            /*box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);*/
+            /*color: #fff;*/
+            display: table-cell;
+            font-size: 45px;
+            height: 60px;
+            padding: 30px;
+            text-align: center;
+            /*transition: .5s;*/
+            vertical-align: middle;
+            width: 60px;
+            background-color: white;
+        }
+        
+        .custom-icon:hover {
+            background: rgba(0, 0, 0, 0.6);
+        }
+        
+        .fix-editor {
+            display: none;
+        }
+        
+        .icon-wrapper {
+            display: inline-block;
+        }
+
+        #navicon {
+            background-color: rgba(232, 143, 10, 0.86);
+            height: 250px;
+            padding-top: 23px;
+            padding-bottom: 0px;
+        }
+        #staticicon {
+            margin-top: 20px;
+        }
+        .row {
+            margin-right: 15px;
+            margin-left: 0px;
+        }
+
+        #imgplus1, #imgplus2, #imgequal{
+                padding-top: 30px;
+                padding-right: 0px;
+        }
+        .container-flueid {
+            margin-top: -26px;
+        }
